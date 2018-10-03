@@ -257,9 +257,6 @@ public class ProblemWaterJugs extends Problem {
 
 	public static void main(String[] args) throws Exception {
 		ProblemWaterJugs problem = new ProblemWaterJugs();
-		initialState = new StateWaterJugs(); 
-		
-		
 		problem.initialState = new StateWaterJugs(); 
 		
 
