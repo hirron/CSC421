@@ -6,12 +6,22 @@ public class ProblemWaterJugs extends Problem {
 	boolean goal_test(Object state) {
         StateWaterJugs puzzle_state = (StateWaterJugs)state;
          
+		 if(puzzle_state.jugs[0] > 12|| puzzle_state.jugs[1] > 8 || puzzle_state.jugs[2] == 3){
+			 System.out.println("Values are too high");
+		 }
+		// System.out.println(Integer.toString(puzzle_state.jugs[0]));
 		 if(puzzle_state.jugs[0] == 1 || puzzle_state.jugs[1]== 1 || puzzle_state.jugs[2] == 1){
 			 return true;
 		 }
         return false;
 	}
 	
+	private void setObjectToBase(StateWaterJugs old, StateWaterJugs copy)
+	{
+		copy.jugs[0] = old.jugs[0];
+		copy.jugs[1] = old.jugs[1];
+		copy.jugs[2] = old.jugs[2];
+	}
   
     Set<Object> getSuccessors(Object state) {
     	
@@ -26,33 +36,56 @@ public class ProblemWaterJugs extends Problem {
 			
 			for (int x = 0; x < 3; x++){
 				ss.jugs[x] = s.jugs[x];
-				{
-					// Add all fill an empty jugs states
-					if(ss.jugs[x] == 0){
+	
+					// Add all fill and empty jug options
 						if(x==0){
+							//System.out.println("Made it here");
 							ss.jugs[x] = 12;
 							set.add(ss);
+							ss = new StateWaterJugs();
+							setObjectToBase(s, ss);
+							
 							ss.jugs[x] = 0;
+							set.add(ss);
+							ss = new StateWaterJugs();
+							setObjectToBase(s, ss);
 						}
 						
 						if(x==1){
+							//System.out.println("Made it here2");
 							ss.jugs[x] = 8;
 							set.add(ss);
+							ss = new StateWaterJugs();
+							setObjectToBase(s, ss);
+							
 							ss.jugs[x] = 0;
+							set.add(ss);
+							ss = new StateWaterJugs();
+							setObjectToBase(s, ss);
+						//	ss.jugs[x] = 0;
 						}
 						
 						if(x==2){
+							//System.out.println("Made it here 3");
 							ss.jugs[x] = 3;
 							set.add(ss);
+							ss = new StateWaterJugs();
+							setObjectToBase(s, ss);
+						//	ss.jugs[x] = 0;
 							ss.jugs[x] = 0;
+							set.add(ss);
+							ss = new StateWaterJugs();
+							setObjectToBase(s, ss);
+						
+						
 						}
-					}
-				}
+			
 			}
 			
 			int diff = 0;
+			
 			// pouring from 12 jugs
-			if(ss.jugs[0] > 0){
+			if(ss.jugs[0] > 0){				
 				diff = 8- ss.jugs[1];
 				
 				if(ss.jugs[0] >= diff){
@@ -61,8 +94,8 @@ public class ProblemWaterJugs extends Problem {
 					
 					set.add(ss);
 					
-					ss.jugs[0] = ss.jugs[0] + diff;
-					ss.jugs[1] = ss.jugs[1] - diff;
+					ss = new StateWaterJugs();
+					setObjectToBase(s, ss);
 				}
 				
 				
@@ -74,20 +107,21 @@ public class ProblemWaterJugs extends Problem {
 					
 					set.add(ss);
 					
-					ss.jugs[0] = ss.jugs[0] + diff;
-					ss.jugs[1] = ss.jugs[1] - diff;
+					ss = new StateWaterJugs();
+					setObjectToBase(s, ss);
 				}
 				
 				
 				diff = 3-ss.jugs[2];
 				if(ss.jugs[0] >= diff){
-					ss.jugs[0] = ss.jugs[0] - diff;
-					ss.jugs[2] = ss.jugs[2] + diff;
+					ss.jugs[0] = ss.jugs[0]-diff;
+					ss.jugs[2] = ss.jugs[2]+diff;
+	
 					
 					set.add(ss);
 					
-					ss.jugs[0] = ss.jugs[0] + diff;
-					ss.jugs[2] = ss.jugs[2] - diff;
+					ss = new StateWaterJugs();
+					setObjectToBase(s, ss);
 				}
 				
 				
@@ -99,8 +133,8 @@ public class ProblemWaterJugs extends Problem {
 					
 					set.add(ss);
 					
-					ss.jugs[0] = ss.jugs[0] + diff;
-					ss.jugs[2] = ss.jugs[2] - diff;
+					ss = new StateWaterJugs();
+					setObjectToBase(s, ss);
 				}
 			}
 			
@@ -114,8 +148,8 @@ public class ProblemWaterJugs extends Problem {
 					
 					set.add(ss);
 					
-					ss.jugs[1] = ss.jugs[1] + diff;
-					ss.jugs[0] = ss.jugs[0] - diff;
+					ss = new StateWaterJugs();
+					setObjectToBase(s, ss);
 				}
 				
 				
@@ -127,8 +161,8 @@ public class ProblemWaterJugs extends Problem {
 					
 					set.add(ss);
 					
-					ss.jugs[1] = ss.jugs[1] + diff;
-					ss.jugs[0] = ss.jugs[0] - diff;
+					ss = new StateWaterJugs();
+					setObjectToBase(s, ss);
 				}
 				
 				
@@ -139,8 +173,8 @@ public class ProblemWaterJugs extends Problem {
 					
 					set.add(ss);
 					
-					ss.jugs[1] = ss.jugs[1] + diff;
-					ss.jugs[2] = ss.jugs[2] - diff;
+					ss = new StateWaterJugs();
+					setObjectToBase(s, ss);
 				}
 				
 				
@@ -152,8 +186,8 @@ public class ProblemWaterJugs extends Problem {
 					
 					set.add(ss);
 					
-					ss.jugs[1] = ss.jugs[1] + diff;
-					ss.jugs[2] = ss.jugs[2] - diff;
+					ss = new StateWaterJugs();
+					setObjectToBase(s, ss);
 				}
 			}
 			
@@ -167,8 +201,8 @@ public class ProblemWaterJugs extends Problem {
 					
 					set.add(ss);
 					
-					ss.jugs[2] = ss.jugs[2] + diff;
-					ss.jugs[0] = ss.jugs[0] - diff;
+					ss = new StateWaterJugs();
+					setObjectToBase(s, ss);
 				}
 				
 				
@@ -180,8 +214,8 @@ public class ProblemWaterJugs extends Problem {
 					
 					set.add(ss);
 					
-					ss.jugs[2] = ss.jugs[2] + diff;
-					ss.jugs[0] = ss.jugs[0] - diff;
+					ss = new StateWaterJugs();
+					setObjectToBase(s, ss);
 				}
 				
 				diff = 8- ss.jugs[1];
@@ -192,8 +226,8 @@ public class ProblemWaterJugs extends Problem {
 					
 					set.add(ss);
 					
-					ss.jugs[2] = ss.jugs[2] + diff;
-					ss.jugs[1] = ss.jugs[1] - diff;
+					ss = new StateWaterJugs();
+					setObjectToBase(s, ss);
 				}
 				
 				
@@ -204,13 +238,12 @@ public class ProblemWaterJugs extends Problem {
 					ss.jugs[1] = ss.jugs[1] + diff;
 					
 					set.add(ss);
-					
-					ss.jugs[2] = ss.jugs[2] + diff;
-					ss.jugs[1] = ss.jugs[1] - diff;
+					ss = new StateWaterJugs();
+					setObjectToBase(s, ss);
 				}
 				
 			}
-			
+		
 			
       
         return set;
@@ -226,26 +259,29 @@ public class ProblemWaterJugs extends Problem {
 		
 		
 		double step_cost = toState.jugs[0]-fromState.jugs[0];
+		if (step_cost < 0){
+			step_cost = step_cost*-1;
+		}
+		
 		if(step_cost > 0){
-			if(step_cost == 12){
-				return 0;
-			}
 			return step_cost;
 		}
 		
 		step_cost = toState.jugs[1]-fromState.jugs[1];
+		
+		if (step_cost < 0){
+			step_cost =	step_cost*-1;
+		}
+		
 		if(step_cost > 0){
-			if(step_cost == 8){
-				return 0;
-			}
 			return step_cost;
 		}
 		
 		step_cost = toState.jugs[2]-fromState.jugs[2];
+		if (step_cost < 0){
+			step_cost= step_cost*-1;
+		}
 		if(step_cost > 0){
-			if(step_cost == 3){
-				return 0;
-			}
 			return step_cost;
 		}
 		
@@ -257,9 +293,6 @@ public class ProblemWaterJugs extends Problem {
 
 	public static void main(String[] args) throws Exception {
 		ProblemWaterJugs problem = new ProblemWaterJugs();
-		initialState = new StateWaterJugs(); 
-		
-		
 		problem.initialState = new StateWaterJugs(); 
 		
 

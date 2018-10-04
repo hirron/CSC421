@@ -1,6 +1,5 @@
 public class StateWaterJugs
 {    
-	int N;
     int[] jugs = new int[3];
 	
 	public StateWaterJugs() { 
