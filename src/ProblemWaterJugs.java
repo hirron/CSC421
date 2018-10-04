@@ -6,9 +6,6 @@ public class ProblemWaterJugs extends Problem {
 	boolean goal_test(Object state) {
         StateWaterJugs puzzle_state = (StateWaterJugs)state;
          
-		 if(puzzle_state.jugs[0] > 12|| puzzle_state.jugs[1] > 8 || puzzle_state.jugs[2] == 3){
-			 System.out.println("Values are too high");
-		 }
 		// System.out.println(Integer.toString(puzzle_state.jugs[0]));
 		 if(puzzle_state.jugs[0] == 1 || puzzle_state.jugs[1]== 1 || puzzle_state.jugs[2] == 1){
 			 return true;
