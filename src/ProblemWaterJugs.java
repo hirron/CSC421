@@ -6,7 +6,7 @@ public class ProblemWaterJugs extends Problem {
 	boolean goal_test(Object state) {
         StateWaterJugs puzzle_state = (StateWaterJugs)state;
          
-		// System.out.println(Integer.toString(puzzle_state.jugs[0]));
+		 //System.out.println(Integer.toString(puzzle_state.jugs[0]) + " " + Integer.toString(puzzle_state.jugs[1])+ " " + Integer.toString(puzzle_state.jugs[2]) );
 		 if(puzzle_state.jugs[0] == 1 || puzzle_state.jugs[1]== 1 || puzzle_state.jugs[2] == 1){
 			 return true;
 		 }
@@ -306,13 +306,13 @@ public class ProblemWaterJugs extends Problem {
 		
 		System.out.println("\n\nGraphSearch----------------------");
 		System.out.println("BreadthFirstGraphSearch:\t" + search.BreadthFirstGraphSearch());
-		System.out.println("UniformCostGraphSearch:\t\t" + search.UniformCostGraphSearch());
-		//System.out.println("DepthFirstGraphSearch:\t\t" + search.DepthFirstGraphSearch());
-		//System.out.println("GreedyBestGraphSearch:\t\t" + search.GreedyBestFirstGraphSearch());
-		System.out.println("AstarGraphSearch:\t\t" + search.AstarGraphSearch());
+		//System.out.println("UniformCostGraphSearch:\t\t" + search.UniformCostGraphSearch());
+		System.out.println("DepthFirstGraphSearch:\t\t" + search.DepthFirstGraphSearch());
+		System.out.println("GreedyBestGraphSearch:\t\t" + search.GreedyBestFirstGraphSearch());
+		//System.out.println("AstarGraphSearch:\t\t" + search.AstarGraphSearch());
 		
 		System.out.println("\n\nIterativeDeepening----------------------");
-		//System.out.println("IterativeDeepeningTreeSearch:\t" + search.IterativeDeepeningTreeSearch());
+		System.out.println("IterativeDeepeningTreeSearch:\t" + search.IterativeDeepeningTreeSearch());
 		System.out.println("IterativeDeepeningGraphSearch:\t" + search.IterativeDeepeningGraphSearch());
 	}
 	
