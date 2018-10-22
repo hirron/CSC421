@@ -1,0 +1,16 @@
+TreeSearch------------------------
+0 0 0
+made it here, nodes in set = 0
+UniformCostGraphSearch:		null
+0 0 0
+made it here, nodes in set = 0
+AstarGraphSearch:		null
+
+
+IterativeDeepening----------------------
+0 0 0
+made it here, nodes in set = 0
+IterativeDeepeningTreeSearch:	null
+0 0 0
+made it here, nodes in set = 0
+IterativeDeepeningGraphSearch:	null

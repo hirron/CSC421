@@ -1,0 +1,173 @@
+TreeSearch------------------------
+BreadthFirstTreeSearch:		(cost=23.0, expansions=46)	StateWaterJugs@5e265ba4 StateWaterJugs@15db9742 StateWaterJugs@4554617c StateWaterJugs@30f39991 
+UniformCostTreeSearch:		(cost=17.0, expansions=151)	StateWaterJugs@5e265ba4 StateWaterJugs@7de26db8 StateWaterJugs@53bd815b StateWaterJugs@3830f1c0 StateWaterJugs@1f89ab83 StateWaterJugs@5a39699c StateWaterJugs@6574b225 
+DepthFirstTreeSearch:		(cost=261.0, expansions=46)	StateWaterJugs@5e265ba4 StateWaterJugs@5a955565 StateWaterJugs@23986957 StateWaterJugs@6b19b79 StateWaterJugs@38c5cc4c StateWaterJugs@3c72f59f StateWaterJugs@7219ec67 StateWaterJugs@147ed70f StateWaterJugs@6973bf95 StateWaterJugs@25d250c6 StateWaterJugs@6dbb137d StateWaterJugs@647fd8ce StateWaterJugs@12e61fe6 StateWaterJugs@7f010382 StateWaterJugs@56528192 StateWaterJugs@3cc2931c StateWaterJugs@48aaecc3 StateWaterJugs@363ee3a2 StateWaterJugs@1184ab05 StateWaterJugs@36c88a32 StateWaterJugs@1c93084c StateWaterJugs@6fe7aac8 StateWaterJugs@769f71a9 StateWaterJugs@4b5d6a01 StateWaterJugs@3c130745 StateWaterJugs@5a63f509 StateWaterJugs@10e41621 StateWaterJugs@7e0b85f9 StateWaterJugs@635eaaf1 StateWaterJugs@50b472aa StateWaterJugs@27ce24aa StateWaterJugs@2c767a52 StateWaterJugs@2f7298b StateWaterJugs@20deea7f StateWaterJugs@1ab3a8c8 StateWaterJugs@6e171cd7 StateWaterJugs@441772e StateWaterJugs@62150f9e StateWaterJugs@71809907 StateWaterJugs@5af3afd9 StateWaterJugs@5ffead27 StateWaterJugs@a514af7 StateWaterJugs@3e58a80e StateWaterJugs@67d48005 StateWaterJugs@5b239d7d StateWaterJugs@6d763516 StateWaterJugs@5c5eefef 
+GreedyBestFirstTreeSearch:	(cost=94.0, expansions=31)	StateWaterJugs@5e265ba4 StateWaterJugs@79e2c065 StateWaterJugs@1d2adfbe StateWaterJugs@7f0eb4b4 StateWaterJugs@4f83df68 StateWaterJugs@689604d9 StateWaterJugs@55141def StateWaterJugs@515c6049 StateWaterJugs@36fc695d StateWaterJugs@34e9fd99 StateWaterJugs@4c12331b StateWaterJugs@6989da5e StateWaterJugs@185a6e9 StateWaterJugs@3c9754d8 StateWaterJugs@1c1bbc4e StateWaterJugs@710f4dc7 StateWaterJugs@5e5d171f 
+AstarTreeSearch:		StateWaterJugs@5e265ba4 (g=0.0, h= 0.0,f = 0.0) order = 0
+StateWaterJugs@6f4a47c7 (g=3.0, h= 0.0,f = 3.0) order = 1
+StateWaterJugs@587e5365 (g=6.0, h= 0.0,f = 6.0) order = 2
+StateWaterJugs@22fcf7ab (g=6.0, h= 0.0,f = 6.0) order = 2
+StateWaterJugs@69453e37 (g=8.0, h= 0.0,f = 8.0) order = 1
+StateWaterJugs@66d18979 (g=9.0, h= 0.0,f = 9.0) order = 3
+StateWaterJugs@609cd4d8 (g=9.0, h= 0.0,f = 9.0) order = 3
+StateWaterJugs@4e50c791 (g=9.0, h= 0.0,f = 9.0) order = 3
+StateWaterJugs@bccb269 (g=9.0, h= 0.0,f = 9.0) order = 3
+StateWaterJugs@7530ad9c (g=9.0, h= 0.0,f = 9.0) order = 3
+StateWaterJugs@1e66f1f5 (g=9.0, h= 0.0,f = 9.0) order = 3
+StateWaterJugs@43c1b556 (g=11.0, h= 0.0,f = 11.0) order = 2
+StateWaterJugs@707194ba (g=11.0, h= 0.0,f = 11.0) order = 2
+StateWaterJugs@5fbe4146 (g=11.0, h= 0.0,f = 11.0) order = 3
+StateWaterJugs@33c911a1 (g=11.0, h= 0.0,f = 11.0) order = 2
+StateWaterJugs@7a675056 (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@4c39bec8 (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@1dac5ef (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@762ef0ea (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@31f9b85e (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@3c0be339 (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@15ca7889 (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@2002fc1d (g=12.0, h= 0.0,f = 12.0) order = 1
+StateWaterJugs@385e9564 (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@1ebd319f (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@8c3b9d (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@f79e (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@445b295b (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@3af9c5b7 (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@1757cd72 (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@c86b9e3 (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@10aa41f2 (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@77f80c04 (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@5c90e579 (g=12.0, h= 0.0,f = 12.0) order = 4
+StateWaterJugs@6913c1fb (g=14.0, h= 0.0,f = 14.0) order = 3
+StateWaterJugs@7b02881e (g=14.0, h= 0.0,f = 14.0) order = 4
+StateWaterJugs@313b2ea6 (g=14.0, h= 0.0,f = 14.0) order = 3
+StateWaterJugs@175b9425 (g=14.0, h= 0.0,f = 14.0) order = 3
+StateWaterJugs@6a03bcb1 (g=14.0, h= 0.0,f = 14.0) order = 3
+StateWaterJugs@21b2e768 (g=14.0, h= 0.0,f = 14.0) order = 3
+StateWaterJugs@394a2528 (g=14.0, h= 0.0,f = 14.0) order = 4
+StateWaterJugs@7c1e2a9e (g=14.0, h= 0.0,f = 14.0) order = 4
+StateWaterJugs@3571b748 (g=14.0, h= 0.0,f = 14.0) order = 3
+StateWaterJugs@7748410a (g=14.0, h= 0.0,f = 14.0) order = 5
+StateWaterJugs@4e3958e7 (g=14.0, h= 0.0,f = 14.0) order = 4
+StateWaterJugs@4009e306 (g=15.0, h= 0.0,f = 15.0) order = 2
+StateWaterJugs@3943a2be (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@28975c28 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@5f9b2141 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@48974e45 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@87a85e1 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@6a84a97d (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@36d585c (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@247d8ae (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@932bc4a (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@d29f28 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@69fb6037 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@41c2284a (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@6497b078 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@186f8716 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@1329eff (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@6f27a732 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@76f2bbc1 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@68e965f5 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@78ffe6dc (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@776b83cc (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@37858383 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@4e268090 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@4ef37659 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@1bb266b3 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@524d6d96 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@44a7bfbc (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@29647f75 (g=15.0, h= 0.0,f = 15.0) order = 2
+StateWaterJugs@2892dae4 (g=15.0, h= 0.0,f = 15.0) order = 2
+StateWaterJugs@6a6afff2 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@1649b0e6 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@2abf4075 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@770d3326 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@3246fb96 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@305b7c14 (g=15.0, h= 0.0,f = 15.0) order = 3
+StateWaterJugs@77eca502 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@26275bef (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@7690781 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@34f7cfd9 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@3e6ef8ad (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@65f095f8 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@10959ece (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@346d61be (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@55536d9e (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@55740540 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@59af0466 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@79da8dc5 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@1eb5174b (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@740773a3 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@c333c60 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@29e495ff (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@2f8dad04 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@41fecb8b (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@732c2a62 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@272ed83b (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@2accdbb5 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@2a266d09 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@5ace1ed4 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@6631f5ca (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@343570b7 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@1613674b (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@306f16f3 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@1a4013 (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@1b6e1eff (g=15.0, h= 0.0,f = 15.0) order = 5
+StateWaterJugs@610f7aa (g=16.0, h= 0.0,f = 16.0) order = 3
+StateWaterJugs@3098cf3b (g=16.0, h= 0.0,f = 16.0) order = 3
+StateWaterJugs@75db5df9 (g=16.0, h= 0.0,f = 16.0) order = 2
+StateWaterJugs@550ee7e5 (g=17.0, h= 0.0,f = 17.0) order = 5
+StateWaterJugs@2df9b86 (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@2e377400 (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@793be5ca (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@7674f035 (g=17.0, h= 0.0,f = 17.0) order = 6
+StateWaterJugs@69997e9d (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@15aab8c6 (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@10feca44 (g=17.0, h= 0.0,f = 17.0) order = 5
+StateWaterJugs@c03cf28 (g=17.0, h= 0.0,f = 17.0) order = 5
+StateWaterJugs@2053d869 (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@4bb33f74 (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@7a419da4 (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@1e683a3e (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@2d2ffcb7 (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@3e84448c (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@581ac8a8 (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@7e5afaa6 (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@5b94b04d (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@63a12c68 (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@1b1426f4 (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@32b260fa (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@4efc180e (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@505fc5a4 (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@383bfa16 (g=17.0, h= 0.0,f = 17.0) order = 5
+StateWaterJugs@4d0f2471 (g=17.0, h= 0.0,f = 17.0) order = 5
+StateWaterJugs@43df23d3 (g=17.0, h= 0.0,f = 17.0) order = 6
+StateWaterJugs@73e22a3d (g=17.0, h= 0.0,f = 17.0) order = 5
+StateWaterJugs@47faa49c (g=17.0, h= 0.0,f = 17.0) order = 5
+StateWaterJugs@152aa092 (g=17.0, h= 0.0,f = 17.0) order = 5
+StateWaterJugs@2fb3536e (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@7205765b (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@20ccf40b (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@48f278eb (g=17.0, h= 0.0,f = 17.0) order = 6
+StateWaterJugs@a530d0a (g=17.0, h= 0.0,f = 17.0) order = 6
+StateWaterJugs@4738a206 (g=17.0, h= 0.0,f = 17.0) order = 5
+StateWaterJugs@1e04fa0a (g=17.0, h= 0.0,f = 17.0) order = 5
+StateWaterJugs@169e6180 (g=17.0, h= 0.0,f = 17.0) order = 4
+StateWaterJugs@5db6b9cd (g=17.0, h= 0.0,f = 17.0) order = 6
+StateWaterJugs@4d910fd6 (g=17.0, h= 0.0,f = 17.0) order = 5
+StateWaterJugs@7fb4f2a9 (g=17.0, h= 0.0,f = 17.0) order = 6
+StateWaterJugs@2584b82d (g=17.0, h= 0.0,f = 17.0) order = 6
+
+ the path is:(cost=17.0, expansions=152)	StateWaterJugs@5e265ba4 StateWaterJugs@6f4a47c7 StateWaterJugs@22fcf7ab StateWaterJugs@1e66f1f5 StateWaterJugs@7a675056 StateWaterJugs@740773a3 StateWaterJugs@2584b82d 
+
+
+GraphSearch----------------------
+BreadthFirstGraphSearch:	(cost=23.0, expansions=55)	StateWaterJugs@5e265ba4 StateWaterJugs@48793bef StateWaterJugs@4e423aa2 StateWaterJugs@7daa0fbd 
+UniformCostGraphSearch:		(cost=17.0, expansions=157)	StateWaterJugs@5e265ba4 StateWaterJugs@149dd36b StateWaterJugs@e19bb76 StateWaterJugs@41d426b5 StateWaterJugs@76884e4b StateWaterJugs@2d1dee39 StateWaterJugs@5b080f3a 
+DepthFirstGraphSearch:		(cost=190.0, expansions=38)	StateWaterJugs@5e265ba4 StateWaterJugs@770d0ea6 StateWaterJugs@6cea706c StateWaterJugs@4b21844c StateWaterJugs@4940809c StateWaterJugs@44a2b17b StateWaterJugs@43ed0ff3 StateWaterJugs@2187fff7 StateWaterJugs@7df587ef StateWaterJugs@551a20d6 StateWaterJugs@3591009c StateWaterJugs@9cd25ff StateWaterJugs@3f093abe StateWaterJugs@1ac85b0c StateWaterJugs@16fb356 StateWaterJugs@58c540cf StateWaterJugs@73511076 StateWaterJugs@4d63b624 StateWaterJugs@60094a13 StateWaterJugs@3546d80f StateWaterJugs@687a762c StateWaterJugs@4263b080 StateWaterJugs@3aee3976 StateWaterJugs@200a26bc StateWaterJugs@21ca139c StateWaterJugs@5ebd56e9 StateWaterJugs@22c01ab0 StateWaterJugs@7fe083b1 StateWaterJugs@41beb473 StateWaterJugs@2ca47471 StateWaterJugs@5769e7ae StateWaterJugs@525d79f0 StateWaterJugs@2970a5bc StateWaterJugs@324c64cd StateWaterJugs@702ed190 StateWaterJugs@42a9a63e StateWaterJugs@71e9a896 StateWaterJugs@69adf72c StateWaterJugs@499b2a5c 
+GreedyBestGraphSearch:		(cost=137.0, expansions=41)	StateWaterJugs@5e265ba4 StateWaterJugs@31500940 StateWaterJugs@66238be2 StateWaterJugs@345e5a17 StateWaterJugs@3d4d3fe7 StateWaterJugs@213e3629 StateWaterJugs@29539e36 StateWaterJugs@60d84f61 StateWaterJugs@2b46a8c1 StateWaterJugs@4cc61eb1 StateWaterJugs@28c0b664 StateWaterJugs@62c5bbdc StateWaterJugs@28a2a3e7 StateWaterJugs@4ced35ed StateWaterJugs@1cefc4b3 StateWaterJugs@7561db12 StateWaterJugs@26f143ed StateWaterJugs@19868320 StateWaterJugs@f325091 StateWaterJugs@25243bc1 StateWaterJugs@65ef722a StateWaterJugs@772485dd 
+AstarGraphSearch:		(cost=17.0, expansions=157)	StateWaterJugs@5e265ba4 StateWaterJugs@704b2127 StateWaterJugs@2bffa76d StateWaterJugs@7668d560 StateWaterJugs@130a0f66 StateWaterJugs@67fe380b StateWaterJugs@304a3655 
+
+
+IterativeDeepening----------------------
+IterativeDeepeningTreeSearch:	(cost=97.0, expansions=20)	StateWaterJugs@5e265ba4 StateWaterJugs@b967222 StateWaterJugs@796065aa StateWaterJugs@1436a7ab StateWaterJugs@4074023c StateWaterJugs@1a35993f StateWaterJugs@f202d6d StateWaterJugs@518cf84a StateWaterJugs@7207cb51 StateWaterJugs@546621c4 StateWaterJugs@3d43fe StateWaterJugs@476a736d StateWaterJugs@385ef531 StateWaterJugs@719843e5 StateWaterJugs@22bd2039 StateWaterJugs@2b556bb2 StateWaterJugs@57d0fc89 StateWaterJugs@7b3315a5 StateWaterJugs@6d4c273c StateWaterJugs@1f193686 
+IterativeDeepeningGraphSearch:	(cost=86.0, expansions=20)	StateWaterJugs@5e265ba4 StateWaterJugs@6a9950f1 StateWaterJugs@6293e39e StateWaterJugs@e344ad3 StateWaterJugs@4cbf4f53 StateWaterJugs@7bbbb6a8 StateWaterJugs@7965a51c StateWaterJugs@ea9e141 StateWaterJugs@6a0659ac StateWaterJugs@76d05cc9 StateWaterJugs@69d6a7cd StateWaterJugs@47547132 StateWaterJugs@12958360 StateWaterJugs@748e9b20 StateWaterJugs@77cb9cd1 
